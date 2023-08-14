@@ -66,6 +66,11 @@ button {
   padding: 12px;
   border-radius: 0.6rem;
   margin-top: 3.2rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #6e1f09;
 }
 
 @media (min-width: 1120px) {
@@ -73,6 +78,7 @@ button {
     flex-direction: row;
     max-width: fit-content;
     gap: 16rem;
+    padding: 9rem 6rem;
   }
 
   .recipe {
