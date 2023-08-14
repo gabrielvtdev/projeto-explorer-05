@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-family: "Source Serif 4", serif;
+  font-size: 62.5%;
+}
+
+body {
+  color: #a54328;
+  font-size: 1.6rem;
+}
+
+h1,
+h2 {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1.4rem;
+}
+
+ul,
+ol {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+button {
+  font-weight: 500;
+  background: #a54328;
+  color: white;
+  border: 0;
+}
