@@ -22,6 +22,9 @@ main {
   margin-inline: auto;
   padding: 5.6rem 4rem;
   box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
 }
 
 img {
@@ -35,11 +38,24 @@ h2 {
   line-height: 3.6rem;
 }
 
+h2 {
+  margin-bottom: 3.2rem;
+}
+
 p,
 li,
 strong {
   font-size: 1.4rem;
   line-height: 1.8rem;
+}
+
+ul,
+ol {
+  padding-left: 2.4rem;
+}
+
+ul {
+  margin-bottom: 2.4rem;
 }
 
 button {
@@ -49,5 +65,5 @@ button {
   border: 0;
   padding: 12px;
   border-radius: 0.6rem;
-  margin-top: 1.7rem;
+  margin-top: 3.2rem;
 }
